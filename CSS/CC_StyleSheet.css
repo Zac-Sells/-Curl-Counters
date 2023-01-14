@@ -1,81 +1,68 @@
 #page{
+    font-family:'Arial', sans-serif;
     display: grid;
-    grid-template-rows: [row-start] 330px [row1] 75px [row2] 65px [row3] 100px [row4] 200px [row5] 500px [row6] 950px [row7] 50px [row-end];
-    grid-template-columns: [start-col] 184px [col1] 184px [col2] 184px [col3] 184px [col4] 184px [col5] 184px 
-    [col6] 184px [col7] 184px [col8] 184px [col9] 184px [end-col];
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas:    "logo logo logo logo"
+                            ". tagline tagline . "
+                            "img1 description description img2 "
+                            "img1 productVision productVision img2 "
+                            "img1 targetConsumer features img2 "
+                            " . bios bios . "
+                            " . link link . ";
+
     background-color: rgb(111, 107, 114);
+    margin: 0;
 }
 #logo{
-    grid-row-start: row-start;
-    grid-row-end: row1;
-    grid-column-start: start-col;
-    grid-column-end: end-col;
-    padding-top: 7.5px;
-    text-align: center;
+    grid-area: logo;
+    padding: 10px;
+    margin: auto;
 }
 #tagline{
-    grid-row-start: row1;
-    grid-row-end: row2;
-    grid-column-start: col2;
-    grid-column-end: end-col;
+    grid-area: tagline;
+    margin: auto;
     text-align: center;
-    padding-right: 355px
 }
 #img1{
-    grid-row-start: row1;
-    grid-row-end: row7;
-    grid-column-start: start-col;
-    grid-column-end: col2;
-    padding-left: 50px;
+    grid-area: img1;
+    margin: auto;
+}
+
+#img2{
+    grid-area: img2;
+    margin: auto;
 }
 #description{
-    grid-row-start: row2;
-    grid-row-end: row3;
-    grid-column-start: col2;
-    grid-column-end: end-col;
+    grid-area: description;
     text-align: center;
-    padding-right: 355px
 }
 #productVision{
-    grid-row-start: row3;
-    grid-row-end: row4;
-    grid-column-start: col2;
-    grid-column-end: end-col;
+    grid-area: productVision;
     text-align: center;
-    padding-right: 355px
 }
 #targetConsumer{
-    grid-row-start: row4;
-    grid-row-end: row5;
-    grid-column-start: col1;
-    grid-column-end: col5; 
-    padding-left: 150px; 
+    grid-area: targetConsumer;
+
 }
 #headingTargetConsumer{
     text-align: center;
 }
 #features{
-    grid-row-start: row4;
-    grid-row-end: row5;
-    grid-column-start: col5;
-    grid-column-end: end-col;
-    padding-left: 100px;  
+    grid-area: features;
 }
 #headingFeatures{
-    padding-left: 150px;
+    text-align: center;
 }
 #bios{
-    grid-row-start: row5;
-    grid-row-end: row7;
-    grid-column-start: start-col;
-    grid-column-end: end-col;
+    grid-area: bios;
     text-align: center;
 }
 #link{
-
-    grid-row-start: row7;
-    grid-row-end: row-end;
-    grid-column-start: start-col;
-    grid-column-end: end-col;
+    grid-area: link;
     text-align: center;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
 }
