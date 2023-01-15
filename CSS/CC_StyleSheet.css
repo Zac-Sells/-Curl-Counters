@@ -7,22 +7,24 @@
                             "img1 description description img2 "
                             "img1 productVision productVision img2 "
                             "img1 targetConsumer features img2 "
-                            " . bios bios . "
-                            " . link link . ";
+                            " . link link . "
+                            " . bios bios . ";
 
     background-color: rgb(111, 107, 114);
-    margin: 0;
 }
+
 #logo{
     grid-area: logo;
     padding: 10px;
     margin: auto;
 }
+
 #tagline{
     grid-area: tagline;
     margin: auto;
     text-align: center;
 }
+
 #img1{
     grid-area: img1;
     margin: auto;
@@ -32,33 +34,41 @@
     grid-area: img2;
     margin: auto;
 }
+
 #description{
     grid-area: description;
     text-align: center;
 }
+
 #productVision{
     grid-area: productVision;
     text-align: center;
 }
+
 #targetConsumer{
     grid-area: targetConsumer;
-
 }
+
 #headingTargetConsumer{
     text-align: center;
 }
+
 #features{
     grid-area: features;
 }
+
 #headingFeatures{
     text-align: center;
 }
+
 #bios{
     grid-area: bios;
     text-align: center;
 }
+
 #link{
     grid-area: link;
+    font-size: larger;
     text-align: center;
 }
 
