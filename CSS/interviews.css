@@ -30,7 +30,11 @@
 
 #notes2{
     grid-area: notes2;
-    text-align: end;
+    text-align:center;
+    
+}
+#notes2body{
+    text-align:left 
 }
 
 #notes3{
