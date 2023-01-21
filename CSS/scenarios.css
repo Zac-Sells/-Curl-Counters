@@ -32,42 +32,51 @@
 
 #notes1{
     grid-area: notes1;
+    text-align: center;
+}
+
+#notes1body{
+    text-align: justify; 
 }
 
 #notes2{
     grid-area: notes2;
-    text-align: end;
+    text-align: center;
 }
 
 #notes3{
     grid-area: notes3;
+    text-align: center;
 }
 
 #notes4{
     grid-area: notes4;
-    text-align: end;
+    text-align: center;
 }
 
 #notes5{
     grid-area: notes5;
+    text-align: center;
 }
 
 #notes6{
     grid-area: notes6;
-    text-align: end;
+    text-align: center;
 }
 
 #notes7{
     grid-area: notes7;
+    text-align: center;
 }
 
 #notes8{
     grid-area: notes8;
-    text-align: end;
+    text-align: center;
 }
 
 #notes9{
     grid-area: notes9;
+    text-align: center;
 }
 
 html, body {
@@ -93,4 +102,8 @@ text-decoration: none;
 .nav a:hover {
 background-color: #ddd;
 color: black;
+}
+
+.body{
+    text-align: justify; 
 }

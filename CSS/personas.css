@@ -42,16 +42,19 @@
 #notes1{
     grid-area: notes1;
     padding-left: 40px;
+    text-align: justify;
 }
 
 #notes2{
     grid-area: notes2;
     padding-right: 40px;
+    text-align: justify;
 }
 
 #notes3{
     grid-area: notes3;
     padding-left: 40px;
+    text-align: justify;
 }
 
 html, body {

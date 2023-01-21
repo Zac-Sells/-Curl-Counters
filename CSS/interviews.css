@@ -26,6 +26,11 @@
 
 #notes1{
     grid-area: notes1;
+    text-align:center;
+}
+
+#notes1body{
+    text-align: justify; 
 }
 
 #notes2{
@@ -33,12 +38,18 @@
     text-align:center;
     
 }
+
 #notes2body{
-    text-align:left 
+    text-align:justify; 
 }
 
 #notes3{
     grid-area: notes3;
+    text-align:center;
+}
+
+#notes3body{
+    text-align:justify; 
 }
 
 html, body {

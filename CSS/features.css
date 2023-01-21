@@ -26,15 +26,17 @@
 
 #notes1{
     grid-area: notes1;
+    text-align: center;
 }
 
 #notes2{
     grid-area: notes2;
-    text-align: end;
+    text-align: center;
 }
 
 #notes3{
     grid-area: notes3;
+    text-align: center;
 }
 
 html, body {
@@ -60,4 +62,8 @@ text-decoration: none;
 .nav a:hover {
 background-color: #ddd;
 color: black;
+}
+
+.body{
+    text-align: justify; 
 }
