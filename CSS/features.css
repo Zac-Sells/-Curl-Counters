@@ -35,16 +35,19 @@
 #notes1{
     grid-area: notes1;
     text-align: center;
+    font-weight: bold;
 }
 
 #notes2{
     grid-area: notes2;
     text-align: center;
+    font-weight: bold;
 }
 
 #notes3{
     grid-area: notes3;
     text-align: center;
+    font-weight: bold;
 }
 
 #notes4{
@@ -95,6 +98,10 @@
 html, body {
     margin: 0;
     padding: 0;
+}
+
+h3{
+    text-decoration: underline;
 }
 
 .nav {
