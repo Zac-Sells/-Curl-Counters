@@ -7,7 +7,15 @@
                             ". headline headline headline . "
                             ". notes1 notes1 . . "
                             ". . notes2 notes2 . "
-                            ". notes3 notes3 . . ";
+                            ". notes3 notes3 . . "
+                            ". . notes4 notes4 . "
+                            ". notes5 notes5 . . "
+                            ". . notes6 notes6 . "
+                            ". notes7 notes7 . . "
+                            ". . notes8 notes8 . "
+                            ". notes9 notes9 . . "
+                            ". . notes10 notes10 . "
+                            ". notes11 notes11 . . ";
 
     background-color: rgb(111, 107, 114);
 }
@@ -36,6 +44,51 @@
 
 #notes3{
     grid-area: notes3;
+    text-align: center;
+}
+
+#notes4{
+    grid-area: notes4;
+    text-align: center;
+}
+
+#notes4{
+    grid-area: notes4;
+    text-align: center;
+}
+
+#notes5{
+    grid-area: notes5;
+    text-align: center;
+}
+
+#notes6{
+    grid-area: notes6;
+    text-align: center;
+}
+
+#notes7{
+    grid-area: notes7;
+    text-align: center;
+}
+
+#notes8{
+    grid-area: notes8;
+    text-align: center;
+}
+
+#notes9{
+    grid-area: notes9;
+    text-align: center;
+}
+
+#notes10{
+    grid-area: notes10;
+    text-align: center;
+}
+
+#notes11{
+    grid-area: notes11;
     text-align: center;
 }
 
