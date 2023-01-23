@@ -44,33 +44,33 @@
     text-align: center;
 }
 
-#matt1{
+#chris1{
     grid-area: notes4;
     text-align: center;
 
 }
 
-#matt2{
+#chris2{
     grid-area:notes5;
     text-align: center;
 }
 
-#matt3{
+#chris3{
     grid-area:notes6;
     text-align: center;
 }
 
-#chris1{
+#matt1{
     grid-area: notes7;
     text-align: center;
 }
 
-#chris2{
+#matt2{
     grid-area: notes8;
     text-align: center;
 }
 
-#chris3{
+#matt3{
     grid-area: notes9;
     text-align: center;
 }
