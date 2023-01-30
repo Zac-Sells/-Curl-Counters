@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <div id = page>
+        <head>
+            <title>Counting Curls Login</title>
+            <link rel="stylesheet" href="CSS/Login.css">
+        </head>
+        <body>
+            <div id = "logo">
+                <img id ="logo" src="img/Counting_Curls.png" alt="logo" height="300px" width="700px">
+            </div>
+            <div class = "nav">
+                <a href="Counting_Curls.html">Home</a>
+                <a href="interviews.html">Interviews</a>
+                <a href="personas.html">Personas</a>
+                <a href="scenarios.html">Scenarios</a>
+                <a href="stories.html">User Stories</a>
+                <a href="features.html">Features</a>
+                <a href="https://video.bellarmine.edu/media/Software+Engineering+Assignment+2/1_36plvig7">Design Artifacts Video</a> 
+                <a href="Login.html">Login</a>
+            </div>
+            <div id = headline>
+                <h1>Welcome to CountingCurls</h1>
+            </div>
+        <form action="action_page.php" method="post">
+            <div class="imagedefault">
+                <img src="img/profiledefault.jpg" alt="Avatar" class="avatar">
+            </div>
+           <div id = "inputs">
+                <div class="container">
+                    <label for="uname"><b>Username</b></label>
+                    <input type="text" placeholder="Enter Username" name="uname" required>
+
+                    <label for="psw"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+
+                    <button type="submit">Login</button>
+                    <label>
+                        <input type="checkbox" checked="checked" name="remember"> Remember me
+                    </label>
+                </div>
+
+                <div class="container">
+                    <button type="button" class="cancelbtn">Cancel</button>
+                    <span class="psw">Forgot <a href="#">password></a></span>
+                </div>
+            </div>
+        </form>
+        </body>
+    </div>
+</html>

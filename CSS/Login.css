@@ -1,0 +1,83 @@
+#page{
+    font-family:'Arial', sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "nav nav nav nav nav"
+                         "logo logo logo logo logo"
+                         "headline headline headline headline headline"
+                         "propic propic propic propic propic"
+                         ". . inputs inputs . ";
+                        
+
+    background-color: rgb(111, 107, 114);
+}
+
+#logo{
+    grid-area: logo;
+    padding: 10px;
+    margin: auto;
+    
+}
+
+#headline{
+    grid-area: headline;
+    margin: auto;
+    text-align: center;
+}
+
+.nav {
+    grid-area: nav;
+    overflow: hidden;
+    background-color:black;
+}
+
+.nav a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    }
+
+.nav a:hover {
+    background-color: #ddd;
+    color: black;
+    }
+
+.imagedefault {
+    
+    text-align: center;
+
+}
+
+img.avatar{
+    width: 30%;
+    border-radius: 50%;
+}
+
+input[type=text], input[type=password] {
+    width: 30%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    
+    
+  }
+
+#inputs{
+ grid-area: inputs; 
+ background-color: aqua;
+ 
+
+}
+
+.imagedefault{
+    grid-area: propic;
+    background-color: beige;
+    
+}
+
+
+
