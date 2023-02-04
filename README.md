@@ -60,19 +60,33 @@ Made with [contrib.rocks](https://contrib.rocks).
 ## ![arch1img](img/arch1img.png)
 
 ## Component Distribution and Communication
-	CountingCurls will use a service-oriented distribution architecture. Since the services are stateless components, they can be replicated and migrated from one computer to another – making the application easier to scale as demand hopefully increases. A service-oriented distribution architecture will also work well with the cloud database we plan to run CountingCurls on. All of these features combined will make it easier for new functionalities to be added in the future. 
+	CountingCurls will use a service-oriented distribution architecture. Since the services are stateless
+	components, they can be replicated and migrated from one computer to another – making the application
+	easier to scale as demand hopefully increases. A service-oriented distribution architecture will also 
+	work well with the cloud database we plan to run CountingCurls on. All of these features combined will
+	make it easier for new functionalities to be added in the future. 
 
 ## ![arch2img](img/arch2img.png)
 
 ## Technologies
-	**Database**: CountingCurls will be handling simple amounts of data, but the information needs to be consistent and accurate; therefore, we will be using a relational database to store data, which will support ACID transactions to guarantee our data remains reliable.  
+	Database: CountingCurls will be handling simple amounts of data, but the information needs to be consistent
+	and accurate; therefore, we will be using a relational database to store data, which will support ACID 
+	transactions to guarantee our data remains reliable.  
 
-	**Platform**: Initially, CountingCurls will be deployed on a web-based platform. This will allow us to control the version of CountingCurls that users are running. Users will have immediate access to the most up-to-date security and additional features without having to update a mobile app.  
+	Platform: Initially, CountingCurls will be deployed on a web-based platform. This will allow us to control 
+	the version of CountingCurls that users are running. Users will have immediate access to the most up-to-date 
+	security and additional features without having to update a mobile app.  
 
-	**Server**: CountingCurls will utilize Google Cloud as its server. Using a cloud server will allow CountingCurls to scale as it grows and Google provides more discounts than its competitors, which is critical for a new software with limited funds.  
+	Server: CountingCurls will utilize Google Cloud as its server. Using a cloud server will allow CountingCurls
+	to scale as it grows and Google provides more discounts than its competitors, which is critical for a new 
+	software with limited funds.  
 
-	**Open Source**: CountingCurls will take advantage of open-source software, such as MySQL as its relational database management system, and Hanko as a user authentication service. Reusing these software systems instead of writing our own will allow us to reduce development costs and the time it takes to get CountingCurls on the market. Also, utilizing Hanko, which authenticates users with passcodes instead of passwords, will keep our data secure without burdening our users with extreme security hoops to jump through to use our software. 
+	Open Source: CountingCurls will take advantage of open-source software, such as MySQL as its relational database
+	management system, and Hanko as a user authentication service. Reusing these software systems instead of writing
+	our own will allow us to reduce development costs and the time it takes to get CountingCurls on the market. Also,
+	utilizing Hanko, which authenticates users with passcodes instead of passwords, will keep our data secure without 
+	burdening our users with extreme security hoops to jump through to use our software. 
 
-	**Development Tools**: CountingCurls will be written using Java on the backend and Javascript and Angular for the frontend. 
+	Development Tools: CountingCurls will be written using Java on the backend and Javascript and Angular for the frontend. 
 
 ## ![arch3img](img/arch3img.png)
