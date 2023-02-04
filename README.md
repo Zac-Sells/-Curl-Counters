@@ -48,6 +48,8 @@ fitness goals and progress and receive personalized recommendations.
 UNLIKE other fitness apps, OUR PRODUCT will provide reminder alerts and be 
 offered to users at no cost.
 
+---
+
 # ![archgif](img/archgif.gif) CountingCurls Architecture ![archgif](img/archgif.gif)
 	
 ## Architectural Organization
