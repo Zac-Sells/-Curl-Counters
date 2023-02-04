@@ -49,6 +49,12 @@
     padding-bottom: 10px;
 }
 
+#notes4{
+    grid-area: notes4;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
 #img1, #img2, #img3{
     text-align: center;
 }
