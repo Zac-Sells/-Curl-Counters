@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <div id = page>
+        <head>
+            <title>Architecture</title>
+            <link rel="stylesheet" href="CSS/architecture.css">   
+        </head>
+        <body>
+            <div id = "logo">
+                <img id="logo" src="img/CC_Logo_2.png" alt="logo" height="400px" width="500px">
+            </div> 
+            <div class = "nav">
+                <a href="Counting_Curls.html">Home</a>
+                <a href="interviews.html">Interviews</a>
+                <a href="personas.html">Personas</a>
+                <a href="scenarios.html">Scenarios</a>
+                <a href="stories.html">User Stories</a>
+                <a href="features.html">Features</a>
+                <a href="https://video.bellarmine.edu/media/Software+Engineering+Assignment+2/1_36plvig7">Design Artifacts Video</a>
+                <a href="architecture.html">Architecture</a>
+                <a href="#ADD VIDEO LINK HERE">Product Overview Video</a>
+            </div>
+            <div id = headline>
+                <h1>
+                    Design Architecture
+                </h1>    
+            </div>
+            <div id = notes1>
+                <h2>Architectural Organization</h2>
+                <div class="body" id="notes1body">
+                  <p>
+                    CountingCurls will utilize a layered architecture for its web-based application. 
+                    There will be five layers: Web Browser, Authentication and User Interface Management, Application Services, 
+                    Basic Services, and Databases. Every layer contains a few components that each complete their own task and 
+                    do not overlap. The components are grouped by their similar functionality, making layers logically coherent. <br> 
+                  </p>
+                  <div id = "img1">
+                    <img id="Arch1" src="img/arch1.png" alt="Arch 1" width="550px" height="550px">
+                </div>
+            </div>
+            </div>
+            <div id = notes2>
+                <h2>Component Distribution and Communication</h2>
+                <div class="body" id="notes2body">
+                <p>
+                    CountingCurls will use a service-oriented distribution architecture. Since the services are stateless components, 
+                    they can be replicated and migrated from one computer to another – making the application easier to scale as demand 
+                    hopefully increases. A service-oriented distribution architecture will also work well with the cloud database we plan to 
+                    run CountingCurls on. All of these features combined will make it easier for new functionalities to be added in the future. <br>
+                </p>
+                <div id = "img2">
+                    <img id="Arch2" src="img/arch2.png" alt="Arch 2" width="550px" height="550px">
+                </div>
+                
+            </div>
+            </div>
+            <div id = notes3>
+                <h2>Technologies</h2>
+                <div class="body" id="notes3body">
+                <p>
+                    <h3>Database</h3> CountingCurls will be handling simple amounts of data, but the information needs to be consistent and accurate; 
+                    therefore, we will be using a relational database to store data, which will support ACID transactions to guarantee our data 
+                    remains reliable. 
+                    <h3>Platform</h3> Initially, CountingCurls will be deployed on a web-based platform. This will allow us to control the version of 
+                    CountingCurls that users are running. Users will have immediate access to the most up-to-date security and additional features 
+                    without having to update a mobile app. 
+                    <h3>Server</h3> CountingCurls will utilize Google Cloud as its server. Using a cloud server will allow CountingCurls to scale as it grows 
+                    and Google provides more discounts than its competitors, which is critical for a new software with limited funds. 
+                    <h3>Open Source</h3> CountingCurls will take advantage of open-source software, such as MySQL as its relational database management system, 
+                    and Hanko as a user authentication service. Reusing these software systems instead of writing our own will allow us to reduce
+                    development costs and the time it takes to get CountingCurls on the market. Also, utilizing Hanko, which authenticates users with 
+                    passcodes instead of passwords, will keep our data secure without burdening our users with extreme security hoops to jump through 
+                    to use our software. 
+                    <h3>Development Tools</h3>CountingCurls will be written using Java on the backend and Javascript and Angular for the frontend.
+                </p>
+                <div id = "img3">
+                    <img id="Arch3" src="img/arch3.png" alt="Arch 3" width="550px" height="500px"> <br><br>
+                </div>
+            </div>
+            </div>
+                       
+        </body>
+    </div>
+
+</html>

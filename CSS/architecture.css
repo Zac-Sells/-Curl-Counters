@@ -7,7 +7,15 @@
                             ". headline headline headline . "
                             ". notes1 notes1 . . "
                             ". . notes2 notes2 . "
-                            ". notes3 notes3 . . ";
+                            ". notes3 notes3 . . "
+                            ". . notes4 notes4 . "
+                            ". notes5 notes5 . . "
+                            ". . notes6 notes6 . "
+                            ". notes7 notes7 . . "
+                            ". . notes8 notes8 . "
+                            ". notes9 notes9 . . "
+                            ". . notes10 notes10 . "
+                            ". notes11 notes11 . . ";
 
 }
 
@@ -25,30 +33,24 @@
 
 #notes1{
     grid-area: notes1;
-    text-align:center;
-}
-
-#notes1body{
-    text-align: justify; 
+    text-align: center;
+    padding-bottom: 10px;
 }
 
 #notes2{
     grid-area: notes2;
-    text-align:center;
-    
-}
-
-#notes2body{
-    text-align:justify; 
+    text-align: center;
+    padding-bottom: 10px;
 }
 
 #notes3{
     grid-area: notes3;
-    text-align:center;
+    text-align: center;
+    padding-bottom: 10px;
 }
 
-#notes3body{
-    text-align:justify; 
+#img1, #img2, #img3{
+    text-align: center;
 }
 
 html, body {
@@ -74,6 +76,10 @@ font-weight:bold;
 }
 
 .nav a:hover {
-background-color: rgb(130, 81, 158);
+background-color:rgb(130, 81, 158);
 color: black;
+}
+
+.body{
+    text-align: justify; 
 }
