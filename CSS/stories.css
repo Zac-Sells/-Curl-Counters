@@ -14,7 +14,7 @@
                             ". notes7 notes7 . . "
                             ". . notes8 notes8 . "
                             ". notes9 notes9 . . ";
-    background-color: rgb(111, 107, 114);
+
 }
 
 #logo{
@@ -88,15 +88,17 @@ html, body {
   
 .nav a {
 float: left;
-font-size: 16px;
+font-family:Georgia, 'Times New Roman', Times, serif;
+font-size: 18px;
 color: white;
 text-align: center;
 padding: 14px 16px;
 text-decoration: none;
+font-weight:bold;
 }
 
 .nav a:hover {
-background-color: #ddd;
+background-color: rgb(130, 81, 158);
 color: black;
 }
 
